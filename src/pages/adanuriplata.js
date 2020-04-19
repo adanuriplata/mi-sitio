@@ -35,15 +35,6 @@ export default () => <div>
 <div className="container py-20 text-center ">
   <h1 className="font-mono text-2xl text-gray-300 pb-12">Mi experiencia</h1>
 
-  <ul class="flex w-1/2 my-0 mx-auto border-b">
-  <li class="-mb-px mr-1">
-    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold" href="#">Inmobiliaria Aguilar</a>
-  </li>
-  <li class="mr-1">
-    <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">Conektica</a>
-  </li>
-</ul>
-
 
   <div className="grid grid-cols-3 gap-4">
 
@@ -52,25 +43,26 @@ export default () => <div>
         <h3 className="text-green-400">Conektica Agencia Creativa</h3>
       </div>
       <div className="jobs-content__description text-gray-400">
+        <p className="font-mono">2017 - 2019</p>
         <p>Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.</p>
         <p>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</p>
       </div>
     </div>
 
     <div className="p-4 my-4">
-      Hola
+      
     </div>
 
     <div className="p-4 my-4">
-      Hola
+      
     </div>
 
     <div className="p-4 my-4">
-      Hola
+      
     </div>
 
     <div className="p-4 my-4">
-      Hola
+      
     </div>
 
     <div className="jobs-content  text-left p-4 my-4">
@@ -78,6 +70,7 @@ export default () => <div>
         <h3 className="text-green-400">Inmobiliaria Aguilar</h3>
       </div>
       <div className="jobs-content__description text-gray-400">
+        <p className="font-mono">2017 - 2019</p>
         <p>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</p>
         <p>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</p>
       </div>

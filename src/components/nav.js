@@ -20,7 +20,7 @@ export default () => (
       <Link to="/adanuriplata" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         ▹ Acerca de mi
       </Link>
-      <Link to="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <Link to="/contacto" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         ▹ Contacto
       </Link>
     </div>
