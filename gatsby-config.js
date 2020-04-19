@@ -5,5 +5,22 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    'gatsby-plugin-postcss',
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Mono`,
+            variants: [`200`, `300`, `400`, `700`]
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`]
+          },
+        ],
+      },
+    }
+    ]
 }
